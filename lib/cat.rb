@@ -8,9 +8,9 @@ def mood
   if @mood == "tired" 
     puts "walking"
   elsif @mood == "happy" 
-  puts "feeding"
-else @mood == "excited"
-  puts "playing"
+    puts "feeding"
+  else @mood == "excited"
+    puts "playing"
   end 
 end 
 gato = Cat.new("Whiskers","Happy")
