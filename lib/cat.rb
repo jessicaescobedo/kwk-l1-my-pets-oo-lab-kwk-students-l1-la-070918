@@ -17,4 +17,3 @@ gato = Cat.new("Whiskers","Happy")
 
 puts gato.name 
 puts gato.mood
-end 
